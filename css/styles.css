@@ -234,16 +234,39 @@ body {
   color: var(--accent-color);
 }
 
+
+
 .contact {
   display: flex;
   margin-left: auto;
+  align-items: center;
 }
 
 .contact .item + .item {
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
-.contact .link {
+.contact-link{
+  display: flex;
+  align-items: center;}
+
+.icon-post {
+  width:16px; 
+  height:12px;
+  margin-right: 10px;
+  fill: currentColor;
+   margin-right: 10px;
+  }
+
+.icon-tell{
+  width:10px; 
+  height:16px;
+  margin-right: 10px;
+  fill: currentColor;
+    margin-right: 10px;
+}
+
+.contact.list .link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -253,9 +276,8 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
-  text-align: left;
   letter-spacing: 0.02em;
-}
+  }
 
 .contact .link:hover,
 .contact .link:focus {
