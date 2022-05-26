@@ -234,8 +234,6 @@ body {
   color: var(--accent-color);
 }
 
-
-
 .contact {
   display: flex;
   margin-left: auto;
@@ -246,24 +244,25 @@ body {
   margin-left: 30px;
 }
 
-.contact-link{
+.contact-link {
   display: flex;
-  align-items: center;}
+  align-items: center;
+}
 
-.icon-post {
-  width:16px; 
-  height:12px;
+.contact-link .icon {
+  display: inline-block;
   margin-right: 10px;
   fill: currentColor;
-   margin-right: 10px;
-  }
+}
 
-.icon-tell{
-  width:10px; 
-  height:16px;
-  margin-right: 10px;
-  fill: currentColor;
-    margin-right: 10px;
+.icon.post {
+  width: 16px;
+  height: 12px;
+}
+
+.icon.tell {
+  width: 10px;
+  height: 16px;
 }
 
 .contact.list .link {
@@ -277,7 +276,7 @@ body {
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.02em;
-  }
+}
 
 .contact .link:hover,
 .contact .link:focus {
@@ -314,21 +313,34 @@ body {
 
 /* наши особенности */
 
-/* .icon-impotent {
-  display: block;
+.icon-impotent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   background-color: #f5f4fa;
   border-radius: 4px;
-
+  margin-bottom: 30px;
   height: 120px;
-  background-size: 100px, cover;
-  background-image: url('../images/symbol-defs.svg#icon-email');
-  /* background-size: cover; */
-  background-size: no-repeat;
 }
 
-/* .icon-impotent.antenna {
-  background-image: ;
-} */ */
+.icon-impotent .clock {
+  width: 66.96px;
+  height: 70px;
+}
+
+.icon-impotent .antenna {
+  width: 65.32px;
+  height: 70px;
+}
+.icon-impotent .diagram {
+  width: 70px;
+  height: 53.69px;
+}
+.icon-impotent .astronaut {
+  width: 70px;
+  height: 70px;
+}
 
 .list.skill > .title {
   font-weight: 700;
