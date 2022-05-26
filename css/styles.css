@@ -72,12 +72,22 @@ body {
 }
 
 .hero {
+  text-align: center;
+
+  max-width: 1600px;
+  height: 600px;
   padding-top: 200px;
   padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
 
-  background-color: var(--head-footer-bgcolor);
+  background: rgba(47, 48, 58, 0.4);
+  background-image: url('../images/imgbg.jpg');
+  background-color: #c4c4c4;
 
-  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-title {
@@ -281,6 +291,22 @@ body {
 }
 
 /* наши особенности */
+
+/* .icon-impotent {
+  display: block;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+
+  height: 120px;
+  background-size: 100px, cover;
+  background-image: url('../images/symbol-defs.svg#icon-email');
+  /* background-size: cover; */
+  background-size: no-repeat;
+}
+
+/* .icon-impotent.antenna {
+  background-image: ;
+} */ */
 
 .list.skill > .title {
   font-weight: 700;
