@@ -9,6 +9,7 @@
 /* цвет ховера кнопки заказать услугу #188CE8 */
 /* цвет бордера topline #ECECEC */
 /* цвет бордера картки порфолио #EEEEEE */
+/* цвет кнопки секции клиент #AFB1B8*/
 
 /*переменные*/
 
@@ -22,6 +23,7 @@
   --secondary-accent-color: #188ce8;
   --topline-color: #ececec;
   --boder-portfolio-color: #eeeeee;
+  --client-color: #afb1b8;
 }
 
 /* общие */
@@ -67,6 +69,11 @@ body {
 }
 
 .section.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section.clients {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -507,6 +514,49 @@ body {
   letter-spacing: 0.03em;
 
   margin: 0;
+}
+
+/* Постоянные клиенты */
+.client {
+  display: flex;
+}
+
+.client .item-client:not(:last-child) {
+  margin-right: 30px;
+}
+
+.button-client {
+  padding: 0;
+  margin: 0;
+  border: 1px solid var(--client-color);
+  width: 170px;
+  height: 92px;
+  /* color: var(--client-color); */
+  border-radius: 4px;
+  /* background-color: #ffffff; */
+}
+
+.button-icon {
+  fill: var(--client-color);
+}
+
+.button-client:hover {
+  color: var(--accent-color);
+}
+
+.button-icon.groupya {
+  width: 41px;
+  height: 46.7px;
+}
+.button-icon.groupya {
+}
+.button-icon.groupya {
+}
+.button-icon.groupya {
+}
+.button-icon.groupya {
+}
+.button-icon.groupya {
 }
 
 /*футер*/
