@@ -425,6 +425,67 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
+.social-contact {
+  display: flex;
+  justify-content: center;
+}
+
+.social-contact .item-contact:not(:last-child) {
+  margin-right: 10px;
+}
+
+.link-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  color: var(--client-color);
+}
+
+.link-contact:hover,
+.link-contact:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+.icon-contact {
+  fill: currentColor;
+}
+
+/* Постоянные клиенты */
+
+.client {
+  display: flex;
+}
+
+.client .item-client:not(:last-child) {
+  margin-right: 30px;
+  padding-bottom: 0;
+}
+
+.link-client {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid var(--client-color);
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+  color: var(--client-color);
+}
+
+.link-client:hover,
+.link-client:focus {
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+}
+.client-icon {
+  fill: currentColor;
+}
+
 /* портфолио */
 
 .title-work {
@@ -520,37 +581,6 @@ body {
   margin: 0;
 }
 
-/* Постоянные клиенты */
-.client {
-  display: flex;
-}
-
-.client .item-client:not(:last-child) {
-  margin-right: 30px;
-  padding-bottom: 0;
-}
-
-.link-client {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  border: 1px solid var(--client-color);
-  border-radius: 4px;
-  width: 170px;
-  height: 92px;
-  color: var(--client-color);
-}
-
-.link-client:hover,
-.link-client:focus {
-  border: 1px solid var(--accent-color);
-  color: var(--accent-color);
-}
-.client-icon {
-  fill: currentColor;
-}
-
 /*футер*/
 
 .footer {
@@ -582,4 +612,39 @@ body {
 .adress .link.post:hover,
 .address .link.post:focus {
   color: var(--accent-color);
+}
+
+.text-footer {
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+
+  font-style: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  margin: 0 0 20px;
+}
+
+.link-contact.footer-contact {
+  color: var(--primary-white-color);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.link-contact.footer-contact:hover,
+.link-contact.footer-contact:focus {
+  background-color: var(--accent-color);
+}
+
+.contact-box {
+  width: 206px;
+  height: 80px;
+}
+
+.container.bottom {
+  display: flex;
+  align-items: baseline;
+}
+
+.container.bottom .bottom-box:not(:last-child) {
+  margin-right: 70px;
 }
