@@ -335,24 +335,6 @@ body {
   height: 120px;
 }
 
-.icon-impotent .clock {
-  width: 66.96px;
-  height: 70px;
-}
-
-.icon-impotent .antenna {
-  width: 65.32px;
-  height: 70px;
-}
-.icon-impotent .diagram {
-  width: 70px;
-  height: 53.69px;
-}
-.icon-impotent .astronaut {
-  width: 70px;
-  height: 70px;
-}
-
 .list.skill > .title {
   font-weight: 700;
   font-size: 14px;
