@@ -530,38 +530,25 @@ body {
   padding-bottom: 0;
 }
 
-.button-client {
-  padding: 0;
-  margin: 0;
+.link-client {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   border: 1px solid var(--client-color);
+  border-radius: 4px;
   width: 170px;
   height: 92px;
-  /* color: var(--client-color); */
-  border-radius: 4px;
-  /* background-color: #ffffff; */
+  color: var(--client-color);
 }
 
-.button-icon {
-  fill: var(--client-color);
-}
-
-.button-client:hover {
+.link-client:hover,
+.link-client:focus {
+  border: 1px solid var(--accent-color);
   color: var(--accent-color);
 }
-
-.button-icon.groupya {
-  width: 41px;
-  height: 46.7px;
-}
-.button-icon.groupya {
-}
-.button-icon.groupya {
-}
-.button-icon.groupya {
-}
-.button-icon.groupya {
-}
-.button-icon.groupya {
+.client-icon {
+  fill: currentColor;
 }
 
 /*футер*/
