@@ -130,6 +130,7 @@ body {
 
 .title {
   color: var(--title-text-color);
+  text-transform: uppercase;
 
   margin-top: 0;
   margin-bottom: 10px;
@@ -255,11 +256,6 @@ body {
   margin-left: 30px;
 }
 
-.contact-link {
-  display: flex;
-  align-items: center;
-}
-
 .contact-link .icon {
   display: inline-block;
   margin-right: 10px;
@@ -277,7 +273,8 @@ body {
 }
 
 .contact.list .link {
-  display: block;
+  display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
 
